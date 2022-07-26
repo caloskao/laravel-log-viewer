@@ -277,8 +277,8 @@
   </div>
 </div>
 <!-- jQuery for Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
         crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -295,7 +295,7 @@
   const darkSwitch = document.getElementById('darkSwitch');
 
   // this is here so we can get the body dark mode before the page displays
-  // otherwise the page will be white for a second... 
+  // otherwise the page will be white for a second...
   initTheme();
 
   window.addEventListener('load', () => {
@@ -308,7 +308,7 @@
   });
 
   // end darkmode js
-        
+
   $(document).ready(function () {
     $('.table-container tr').on('click', function () {
       $('#' + $(this).data('display')).toggle();
